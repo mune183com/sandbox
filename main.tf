@@ -8,7 +8,7 @@ provider "aws" {
 
 resource "aws_s3_bucket" "s3-bucket" {
   bucket = "mune183com-bucket"
-  acl    = "private"
+  acl    = "private"#add test
 
   tags = {
     Name        = "My bucket"
