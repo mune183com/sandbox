@@ -1,7 +1,7 @@
 terraform {
   required_version = ">= 0.12.0"
 }
-#comment test2
+#comment master test2
 provider "aws" {
   region  = var.region
 }
